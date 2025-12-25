@@ -25,3 +25,5 @@ Safety:
 - Warm up well before heavy or intense sessions. Prioritize form over load.
 
 Feel free to edit the content or expand the site with additional pages, printable plans, or progress tracking.
+
+Updating From HTTPS Source
