@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fitness Hub — Simple plans & daily basics</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Fitness Hub</h1>
+      <p class="tagline">Simple plans, daily basics, and practical examples to get you moving.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="what-is-fitness" class="card">
+      <h2>What is Fitness?</h2>
+      <p>
+        Fitness is a mix of cardiovascular endurance, muscular strength, muscular endurance,
+        flexibility, and balance. It means having the physical capacity to perform everyday
+        tasks, feel healthy, and reduce risk of disease. Fitness is built consistently with
+        movement, progressive challenge, recovery, and good nutrition and sleep.
+      </p>
+    </section>
+
+    <section id="choose-plan" class="card">
+      <h2>Choose a plan</h2>
+      <p>Pick a duration to see a simple, progressive plan you can follow daily.</p>
+
+      <div class="plan-controls">
+        <label for="plan-select">Plan length:</label>
+        <select id="plan-select" aria-label="Select plan length">
+          <option value="1">1 Month (Beginner)</option>
+          <option value="2">2 Months (Build habit)</option>
+          <option value="3">3 Months (Progress & Strength)</option>
+        </select>
+      </div>
+
+      <div id="plan-output" class="plan-output" aria-live="polite">
+        <!-- Plan details injected by script.js -->
+      </div>
+    </section>
+
+    <section id="daily-basics" class="card">
+      <h2>Daily basics — when and what to do</h2>
+      <p>Small, consistent blocks of time each day add up. Below is a suggested daily structure you can adjust to fit your schedule.</p>
+
+      <ul class="daily-list">
+        <li><strong>Morning (10–30 min):</strong> Light mobility, short walk or brisk 10–20 minute cardio, hydration. Great for energy and consistency.</li>
+        <li><strong>Midday / Afternoon (20–40 min):</strong> Strength or bodyweight routine — the main training session of the day.</li>
+        <li><strong>Evening (10–20 min):</strong> Stretching, foam rolling, light mobility and breathing to help recovery and sleep.</li>
+        <li><strong>Daily total time (beginner):</strong> ~20–45 minutes. As you progress you may increase duration or intensity.</li>
+      </ul>
+    </section>
+
+    <section id="practical-examples" class="card">
+      <h2>Practical examples — how many sets and reps</h2>
+      <p>Below are simple, practical set/rep guidelines depending on goals and experience.</p>
+
+      <div class="examples-grid">
+        <div>
+          <h3>Strength (beginner)</h3>
+          <ul>
+            <li>Compound exercises (squat / push-up / row): 3 sets × 6–10 reps</li>
+            <li>Core (plank / deadbug): 3 × 20–45s or 3 × 10–20 reps for other core moves</li>
+            <li>Rest 60–90s between sets</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Endurance / fat loss</h3>
+          <ul>
+            <li>Cardio: 20–40 minutes steady (walk, jog, bike) or 10–20 minutes of HIIT intervals</li>
+            <li>Bodyweight circuits: 2–4 rounds of 8–15 reps per exercise, short rest</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Mobility & Recovery</h3>
+          <ul>
+            <li>Stretching: 10–20 minutes nightly — 2–4 stretches, 30–60s each</li>
+            <li>Foam rolling: 5–10 minutes targeting tight muscles</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="note">
+        Note: Start at the lower end of ranges and increase sets/reps or intensity gradually. If you have medical concerns, consult a professional before starting.
+      </p>
+    </section>
+
+    <section id="sample-day" class="card">
+      <h2>Sample daily routines (quick pick)</h2>
+      <div class="sample-grid">
+        <div>
+          <h4>Beginner (20–30 min)</h4>
+          <ol>
+            <li>5 min warm-up (walk, arm swings)</li>
+            <li>10–15 min strength: 3 rounds of:
+              <ul>
+                <li>8 bodyweight squats</li>
+                <li>6–8 incline push-ups</li>
+                <li>10 bent-over rows (or inverted rows)</li>
+                <li>30s plank</li>
+              </ul>
+            </li>
+            <li>3–5 min cool down / stretch</li>
+          </ol>
+        </div>
+        <div>
+          <h4>Intermediate (30–45 min)</h4>
+          <ol>
+            <li>8 min warm-up (mobility + light cardio)</li>
+            <li>25–30 min strength + cardio combo:
+              <ul>
+                <li>4 sets × 6–10 reps squats (or goblet squats)</li>
+                <li>4 sets × 6–10 reps push movement</li>
+                <li>2 rounds of 5–8 min steady cardio</li>
+              </ul>
+            </li>
+            <li>5–10 min mobility / stretching</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <footer class="card muted">
+      <p>Created with <span aria-hidden="true">💪</span> by Fitness Hub — adapt plans to your level and schedule.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
