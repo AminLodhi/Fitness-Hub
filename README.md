@@ -27,3 +27,4 @@ Safety:
 Feel free to edit the content or expand the site with additional pages, printable plans, or progress tracking.
 
 Updating from SSH Souce from my local machine.
+Updating From HTTPS Source
